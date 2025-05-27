@@ -1,12 +1,12 @@
 export const words = [
-    {text: 'Ideas', imgPath: '/images/ideas.svg'},
-    {text: 'Concepts', imgPath: '/images/concepts.svg'},
-    {text: 'Designs', imgPath: '/images/designs.svg'},
-    {text: 'Code', imgPath: '/images/code.svg'},
-    {text: 'Ideas', imgPath: '/images/ideas.svg'},
-    {text: 'Concepts', imgPath: '/images/concepts.svg'},
-    {text: 'Designs', imgPath: '/images/designs.svg'},
-    {text: 'Code', imgPath: '/images/code.svg'}
+    {text: 'Ideas', imgPath: 'images/ideas.svg'},
+    {text: 'Concepts', imgPath: 'images/concepts.svg'},
+    {text: 'Designs', imgPath: 'images/designs.svg'},
+    {text: 'Code', imgPath: 'images/code.svg'},
+    {text: 'Ideas', imgPath: 'images/ideas.svg'},
+    {text: 'Concepts', imgPath: 'images/concepts.svg'},
+    {text: 'Designs', imgPath: 'images/designs.svg'},
+    {text: 'Code', imgPath: 'images/code.svg'}
 ];
 
 export const counterItems = [
@@ -33,17 +33,17 @@ export const navLinks = [
 
 export const abilities = [
   {
-    imgPath: "/images/seo.png",
+    imgPath: "images/seo.png",
     title: "Quality Results",
     desc: "Delivering high-quality results while maintaining attention to every detail.",
   },
   {
-    imgPath: "/images/chat.png",
+    imgPath: "images/chat.png",
     title: "Reliable Collaboration",
     desc: "Working with you at every step to ensure transparency and clarity.",
   },
   {
-    imgPath: "/images/time.png",
+    imgPath: "images/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, to turn ideas into reality.",
   },
@@ -52,8 +52,8 @@ export const abilities = [
 export const expCards = [
   {
     review: "Sushil has been invaluable as a UI/UX Design Lead creating design experiences in addition to establishing & maintaining an enterprise quality design system.",
-    imgPath: "/images/bankicon_white.svg",
-    logoPath: "/images/bankicon_white.svg",
+    imgPath: "images/bankicon_white.svg",
+    logoPath: "images/bankicon_white.svg",
     company: "CIBC",
     title: "UX/UI Design Lead",
     date: "February 2022 - Present",
@@ -66,8 +66,8 @@ export const expCards = [
   },
   {
     review: "Sushil's contributions as a lead developer/designer for a frontline banking application platform have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/bankicon_white.svg",
-    logoPath: "/images/bankicon_white.svg",
+    imgPath: "images/bankicon_white.svg",
+    logoPath: "images/bankicon_white.svg",
     company: "CIBC",
     title: "Web/iOS Front End Developer",
     date: "April 2018 - January 2022",
@@ -81,8 +81,8 @@ export const expCards = [
   },
   {
     review: "Sushil's work brought a high level of quality and efficiency. He delivered solutions that enhanced our frontline banking & contact center experience.",
-    imgPath: "/images/bankicon_white.svg",
-    logoPath: "/images/bankicon_white.svg",
+    imgPath: "images/bankicon_white.svg",
+    logoPath: "images/bankicon_white.svg",
     company: "CIBC",
     title: ".NET and Full Stack Developer",
     date: "May 2013 - April 2018",
@@ -95,8 +95,8 @@ export const expCards = [
   },
   {
     review: "Sushil delivered and designed solutions that enhanced our frontline banking center key application for processing financial transactions.",
-    imgPath: "/images/bankicon_white.svg",
-    logoPath: "/images/bankicon_white.svg",
+    imgPath: "images/bankicon_white.svg",
+    logoPath: "images/bankicon_white.svg",
     company: "CIBC",
     title: "Java Full Stack Developer",
     date: "May 2006 - April 2013",
@@ -112,54 +112,54 @@ export const expCards = [
 export const techStackImgs = [
   {
     name: "Figma Design",
-    imgPath: "/images/logos/figma_logo.svg",
+    imgPath: "images/logos/figma_logo.svg",
   },
   {
     name: "HTML and CSS Design",
-    imgPath: "/images/logos/html5_logo.svg",
+    imgPath: "images/logos/html5_logo.svg",
   },
   {
     name: "React Developer",
-    imgPath: "/images/logos/react.png",
+    imgPath: "images/logos/react.png",
   },
   {
     name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
+    imgPath: "images/logos/three.png",
   },
   {
     name: "GSAP Motion Design",
-    imgPath: "/images/logos/gsap-logo.svg",
+    imgPath: "images/logos/gsap-logo.svg",
   },
 ];
 
 export const techStackIcons = [
   {
     name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
+    modelPath: "models/react_logo-transformed.glb",
     scale: 1,
     rotation: [0, 0, 0],
   },
   {
     name: "HTML CSS Design",
-    modelPath: "/models/css-3d.glb",
+    modelPath: "models/css-3d.glb",
     scale: 0.3,
     rotation: [0, 0, -Math.PI / 2],
   },
   {
     name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
+    modelPath: "models/node-transformed.glb",
     scale: 5,
     rotation: [0, -Math.PI / 2, 0],
   },
   {
     name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
+    modelPath: "models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
   },
   {
     name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
+    modelPath: "models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },

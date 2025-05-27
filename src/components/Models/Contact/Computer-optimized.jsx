@@ -6,7 +6,7 @@ Command: npx gltfjsx@6.2.5 computer-optimized.glb -T
 import { useGLTF } from '@react-three/drei'
 
 export function Computer(props) {
-  const { nodes, materials } = useGLTF('/models/computer-optimized-transformed.glb')
+  const { nodes, materials } = useGLTF('models/computer-optimized-transformed.glb')
   return (
     <group {...props} dispose={null}>
       <group position={[-4.005, 67.549, 58.539]}>
@@ -17,4 +17,4 @@ export function Computer(props) {
   )
 }
 
-useGLTF.preload('/models/computer-optimized-transformed.glb');
+useGLTF.preload('models/computer-optimized-transformed.glb');

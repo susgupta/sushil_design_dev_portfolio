@@ -58,9 +58,9 @@ const ShowcaseSection = () => {
                     {/* LEFT */}
                     <div className='first-project-wrapper' ref={project1Ref}>
                         <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt='Sushil Gaming'/>
+                            <img src='images/project1.png' alt='Sushil Gaming'/>
                             <video 
-                                src='/images/gaming_awwards_export.mp4'
+                                src='images/gaming_awwards_export.mp4'
                                 muted={true}
                                 autoPlay={true}
                                 loop={true}
@@ -82,7 +82,7 @@ const ShowcaseSection = () => {
 
                         <div className='project' ref={project2Ref}>
                             <div className='image-wrapper bg-[#ffefdb]'>
-                                <img src="/images/project2.png" alt="3D Car Show Demo" />
+                                <img src="images/project2.png" alt="3D Car Show Demo" />
                             </div>
                             <h2>
                                 3D Car Show Demo
@@ -91,7 +91,7 @@ const ShowcaseSection = () => {
 
                         <div className='project' ref={project3Ref}>
                             <div className='image-wrapper bg-[#ffe7eb]'>
-                                <img src="/images/project3.png" alt="Vacation Theme Site" />
+                                <img src="images/project3.png" alt="Vacation Theme Site" />
                             </div>
                             <h2>
                                 Responsive Vacation Theme Site
