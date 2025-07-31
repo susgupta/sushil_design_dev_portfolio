@@ -1,6 +1,4 @@
-import React from 'react'
 import { abilities } from '../constants'
-import { div } from 'three/tsl'
 
 const FeatureCards = () => {
     return (

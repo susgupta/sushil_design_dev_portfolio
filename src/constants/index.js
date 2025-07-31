@@ -164,3 +164,21 @@ export const techStackIcons = [
     rotation: [0, -Math.PI / 4, 0],
   },
 ];
+
+export const socialImgs = [
+  {
+    name: "fb",
+    imgPath: "images/fb.png",
+    url: "https://www.facebook.com/"
+  },
+  {
+    name: "linkedin",
+    imgPath: "images/linkedin.png",
+    url: "https://www.linkedin.com/in/sushil-gupta-94653397"
+  },
+  {
+    name: "gitbug",
+    imgPath: "images/github.svg",
+    url: "https://github.com/susgupta"
+  },
+];
