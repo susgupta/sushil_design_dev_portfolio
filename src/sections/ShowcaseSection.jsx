@@ -73,6 +73,9 @@ const ShowcaseSection = () => {
                             <p className='text-white-50 md:text-xl'>
                                 Built with React, GSAP, Tailwind CSS, this is a fully responsive site, with video and scroll animations that are used to create an immersive, engaging experience.
                             </p>
+                            <a href="https://susgupta.github.io/gaming_awwards/" className='text-white-50 md:text-xl' target='_blank'>
+                                View Site
+                            </a>
                         </div>
                     </div>
 
@@ -87,6 +90,9 @@ const ShowcaseSection = () => {
                             <h2>
                                 3D Car Show Demo
                             </h2>
+                            <a href="https://susgupta.github.io/3d_car_show/" className='text-white-50 md:text-xl pt-2' target='_blank'>
+                                View Site
+                            </a>
                         </div>
 
                         <div className='project' ref={project3Ref}>
@@ -96,6 +102,9 @@ const ShowcaseSection = () => {
                             <h2>
                                 Responsive Vacation Theme Site
                             </h2>
+                            <a href="https://susgupta.github.io/responsive_travel_site/index.html" className='text-white-50 md:text-xl pt-2' target='_blank'>
+                                View Site
+                            </a>
                         </div>
                     </div>
                 </div>
